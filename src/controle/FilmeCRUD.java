@@ -52,6 +52,7 @@ public class FilmeCRUD extends HttpServlet {
 						"Erro de execução: " + e.getMessage());
 				forward = ERRO;
 			}
+			
 		} else if (cmd.equalsIgnoreCase("editar")) {
 			int cod = Integer.parseInt(request.getParameter("cod"));
 			try {
@@ -75,15 +76,18 @@ public class FilmeCRUD extends HttpServlet {
 				request.setAttribute("Erro de execução: ", e.getMessage());
 				forward = ERRO;
 			}
+			//LISTAR OS FILMES
 		} else if (cmd.equalsIgnoreCase("listar")) {
 			try {
-				request.setAttribute("lista", categoriaServico.buscarTodos());
+				request.setAttribute("lista", filmeServico.buscarTodos());
 				forward = LISTAR;
 			} catch (RuntimeException e) {
 				request.setAttribute("erro",
 						"Erro de execução: " + e.getMessage());
 				forward = ERRO;
 			}
+			
+			
 		} else if (cmd.equalsIgnoreCase("novo")) {
 			int codCategoria = Integer.parseInt(request
 					.getParameter("codCategoria"));
@@ -140,5 +144,3 @@ public class FilmeCRUD extends HttpServlet {
 		return x;
 	}
 }
-
-
