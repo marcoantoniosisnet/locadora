@@ -1,0 +1,312 @@
+@CHARSET "ISO-8859-1";
+
+* {
+	margin:0;
+	padding:0;	
+}
+
+img {
+	border: none;
+}
+
+hr {
+	display: none;
+}
+
+body {
+	background: white;
+}
+
+#geral {
+	width:955px;
+	margin:0px auto;
+	background:#FFF;	
+}
+
+
+/***
+	TOPO
+***/
+/*menu*/
+#nav {margin:0 auto 95px; width:1080px; display:block;}
+#nav {margin-left:50px;}
+
+#nav .menus {background:#090; float:left; text-align:center; border-right:1px solid #fff; width:130px;}
+#nav .menus a {color:#FFF; text-decoration:none; line-height:32px; display:block; padding:0 15px; width:100px;}
+#nav .menus a:hover {color:#fff; text-decoration:none; background:#C30;}
+#nav .menus ul {display:none; position:absolute;}
+#nav .menus li {border-top:1px solid #fff; background:#090; width:130px;}
+
+#topo li {
+	list-style:none;	
+}
+
+.carosel{
+	float:right;
+	position:absolute;
+	margin-left:252px;
+	border-top-right-radius:50px;
+	margin-top:5px;
+
+	}
+
+#topo {
+	float:left;
+	margin-left:0px;
+	margin-top:0px;
+	background-color:#FFF;
+	width:949px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-left:groove #CCC;
+	border-bottom: 1px ridge #CCC;
+	border-right:groove #CCC;
+	height: 160px;
+}
+
+#topo h1 {	
+
+text-align:center;
+color: #466464;
+}
+
+#topo #menu {
+	overflow:hidden;
+	margin-top:128px;
+	margin-left:220px;
+	height:45px;
+}
+#topo #logTopo {
+	float:left;
+	position:absolute;
+	top:10px;
+	
+	}
+/***
+	BARRA LATERAL
+***/
+
+#barralateral {
+	width: 200px;
+	float:left;
+	background-color:#FFF;
+	border-right:dotted #CCC;
+	height:470px;
+	border-left:groove #CCC;
+	padding:10px;
+}
+
+#barralateral h5 {
+	font: bold 18px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#C00;
+	text-transform: uppercase;	
+	margin: 15px 0 0;
+}
+#barralateral h6 {
+	font: bold 18px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:green;
+	text-transform: uppercase;	
+	margin: 15px 0 0;
+}
+
+#barralateral ul li {
+	list-style: none;
+
+}
+
+#barralateral ul li a {
+	font: 13px verdana, arial, tahoma;
+	color:black;
+	text-decoration: none;
+	padding-left:15px;
+	height:30px;
+	line-height:30px;
+	display:block;
+}
+
+#barralateral ul li a:hover {
+	font: 13px verdana, arial, tahoma;
+	color:#FFF;
+	line-height:30px;
+	background-color:green;
+	text-decoration: none;
+}
+
+#barralateral ol li {
+	list-style: none;
+
+}
+
+#barralateral ol li a {
+	font: 13px verdana, arial, tahoma;
+	color:black;
+	padding-left:15px;
+	height:30px;
+	line-height:30px;
+	text-decoration: none;
+	display:block;
+}
+
+#barralateral ol li a:hover {
+	font: 13px verdana, arial, tahoma;
+	color:#FFF;
+	line-height:30px;
+	background-color:#C00;
+	text-decoration: none;
+}
+
+/***
+	CONTEUDO
+***/
+
+.red {
+	color: red;
+}
+
+#contato {
+	background-color:#CCC;
+	padding:10px;
+	margin-top:30px;
+	border-radius:10px;
+	letter-spacing:2px;
+	line-height:25px;
+	width:500px;
+	}
+#contato textarea {
+		width:400px;
+		height:80px;
+	}
+#contato input[type="submit"] {
+		color:#060;
+		letter-spacing:2px;
+		width:70px;
+		cursor:pointer;
+		height:25px;
+	}
+
+#conteudo {
+	width:650px;
+	float:right;
+	border-right:groove #CCC;
+	height:450px;
+	padding:20px;
+	background-color: #FFF;
+}
+
+#conteudo h3 {
+	font: bold 20px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#727272;
+	text-transform: uppercase;	
+}
+
+#conteudo h4 {
+	font: bold 15px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#0A3941;
+	text-transform: uppercase;	
+}
+
+#conteudo p {
+	font: 14px/25px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#727272;
+	margin-bottom: 05px;
+}
+
+#conteudo ul {
+	margin-bottom: 20px;
+}
+	
+#conteudo ul li {
+	list-style: square;
+	margin-left: 10px;
+	font: 14px/20px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#727272;
+	margin-bottom: 10px;
+}
+
+#conteudo table {
+	font: 12px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	margin-bottom : 20px;
+}
+
+#conteudo table tr th {
+	background-color: #EEE;
+	padding: 2px;
+}
+
+#conteudo table input,select {
+	font: 12px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	text-align:left;
+}
+
+#conteudo a {
+	font: bold 16px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:black;
+	text-decoration: none;
+}
+
+#conteudo a:hover {
+	font: bold 16px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#0A3941;
+	text-decoration: none;
+}
+
+#conteudo #conteudo-form h5 {
+	font: bold 18px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#0A3941;
+	text-transform: uppercase;	
+	margin: 15px 0 0;
+}
+
+#conteudo #conteudo-form fieldset {
+	border:none;
+}
+
+#conteudo #conteudo-form label {
+	 font:12px verdana;
+}
+
+#conteudo #conteudo-form input {
+	border:none;
+	width:155px;
+	padding:7px;
+}
+
+#conteudo #conteudo-form input {
+	border:none;
+	width:155px;
+	padding:7px;
+}
+
+table {
+	width:670px
+}
+
+/***
+	RODAPE
+***/
+
+#rodape {
+	background-color:#00FF7F;
+	clear:both;
+	width:949px;
+	border-left:groove #CCC;
+	border-right:groove #CCC;
+	border-top:1px ridge #666;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	height:150px;
+	
+}
+#rodape p{
+		font:12px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+		text-align:left;
+		padding:20px;
+	}
+#rodape #img_rodape {
+		font:13px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+		color:#333;
+		float:right;
+		position:relative;
+		bottom:80px;
+		right:50px;
+	}
