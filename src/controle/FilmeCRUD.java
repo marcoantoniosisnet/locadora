@@ -125,6 +125,7 @@ public class FilmeCRUD extends HttpServlet {
 
 	private Filme instanciar(HttpServletRequest req) {
 		
+		FilmeServico filmeServico = ServicoFactory.criarFilmeServico();
 		CategoriaServico categoriaServico = ServicoFactory.criarCategoriaServico();
 		String aux;
 		

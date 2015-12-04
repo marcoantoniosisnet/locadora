@@ -23,7 +23,7 @@ Copyright © 2015 <b>Marco Antonio Fortunato</b> ®. Todos os direitos reservados.
 		</p>
         <div id="img_rodape">
             <h4>Nos acompanhe nas redes sociais!</h4>
-           <a href="#"> <img src="resources/img/redes-sociais.png" width="159" height="96" /> </a>
+           <a href="#"> <img src="/WebInterLocadora/resources/img/redes-sociais.jpg" width="159" height="96" /> </a>
         </div>
         
   </body>

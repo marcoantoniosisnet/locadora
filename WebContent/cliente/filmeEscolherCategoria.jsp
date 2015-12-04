@@ -12,9 +12,51 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Teste CRUD</title>
+<title>** Locadora **</title>
+<link rel="stylesheet" type="text/css"
+	href="<%=request.getContextPath()%>/resources/css/estilo.css" />
+
+<script src="resources/jQuery/jquery-latest.js"></script>
+<script src="resources/jQuery/jquery.js" type="text/javascript"></script>
+<script src="resources/jQuery/jquery.cycle2.min.js"
+	type="text/javascript"></script>
+
+<script>
+	$(function() {
+
+		/* IMAGEM TOPO SLIDESHOW*/
+		$('#slideShow').cycle({
+			fx : 'fade'
+		});
+
+		/* EFEITO DO MENU TOPO*/
+		$('li.menus').mousemove(function() {
+			$(this).find('ul').slideDown();
+		});
+		$('li.menus').mouseleave(function() {
+			$(this).find('ul').slideUp("fast");
+		});
+
+	});
+</script>
 </head>
 <body>
+
+<div id="geral">
+
+		<div id="topo">
+			<%@include file="/resources/template/topo.jsp"%>
+		</div>
+
+		<hr />
+
+		<div id="barralateral">
+			<%@ include file="/resources/template/lateral.jsp"%>
+		</div>
+
+		<hr />
+		<div id="conteudo">
+
 	<h1>Inserir novo Filme</h1>
 	<hr />
 	<h2>Escolha a categoria</h2>
@@ -34,11 +76,21 @@
 					<td>${x.descricao}</td>
 					
 					<td><a
-						href="<%=request.getContextPath()%>/cliente/FilmeCRUD?cmd=novo&codCategoria=${x.codCategoria}">Escolher
-							este</a></td>
+						href="<%=request.getContextPath()%>/cliente/FilmeCRUD?cmd=novo&codCategoria=${x.codCategoria}">
+						Opcao</a></td>
 				</tr>
 			</c:forEach>
 		</tbody>
 	</table>
+	</div>
+
+		<hr />
+
+
+       <div id="rodape">
+			<%@ include file="/resources/template/rodape.jsp"%>
+		</div>
+	
+	</div>
 </body>
 </html>

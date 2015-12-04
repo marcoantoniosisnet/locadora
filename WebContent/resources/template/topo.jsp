@@ -17,15 +17,15 @@
 <body>
  
  <div id="logTopo">
-        	<img src="resources/img/log_topo.jpg" height="125" width="200" />
+        	<img src="/WebInterLocadora/resources/img/log_topo.jpg" height="125" width="200" />
        </div>      
     
 		     <div id="slideShow">
-				<img class="carosel" src="resources/img/topo01.jpg" />
-                <img class="carosel" src="resources/img/topo02.jpg" />
-                <img class="carosel" src="resources/img/topo03.jpg" />
-                <img class="carosel" src="resources/img/topo04.jpg" />
-                <img class="carosel" src="resources/img/topo05.jpg" />
+				<img class="carosel" src="/WebInterLocadora/resources/img/topo01.jpg" />
+                <img class="carosel" src="/WebInterLocadora/resources/img/topo02.jpg" />
+                <img class="carosel" src="/WebInterLocadora/resources/img/topo03.jpg" />
+                <img class="carosel" src="/WebInterLocadora/resources/img/topo04.jpg" />
+                <img class="carosel" src="/WebInterLocadora/resources/img/topo05.jpg" />
 			</div>
     
     
